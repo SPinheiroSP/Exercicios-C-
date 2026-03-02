@@ -25,9 +25,9 @@ int main() {
     printf("Digite a Área da Cidade em km:\n");
     scanf("%f", &area);
     printf("Digite o PIB da Cidade:\n");
-    scanf("%.2f", &pib);
+    scanf("%f", &pib);
     printf("Digite o Número de Pontos Turísticos:\n");
-    scanf("%d\n", &turism);
+    scanf("%d", &turism);
 
 
     //Apresentação dos dados da Carta 01
