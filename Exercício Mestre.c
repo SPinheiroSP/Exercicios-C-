@@ -110,6 +110,25 @@ int main() {
     printf("PIB per Cápita: R$%.2f\n", pibpercapita2);
     printf("Super Poder: %.2lf\n", superpoder2);
 
+    // comparação entre as cartas para identificar vencedora;
+
+    int população = população1 > população2;
+    int area = area1 > area2;
+    int pib = pib1 > pib2;
+    int Pontosturísticos = turism1 > turism2;
+    int densidade = inversodensidade1 > inversodensidade2;
+    int pibpercapita = pibpercapita1 > pibpercapita2;
+    int superpoder = superpoder1 > superpoder2;
+
+    printf("População: %d\n", população);
+    printf("Área: %d\n", area);
+    printf("PIB: %d\n", pib);
+    printf("Pontos Turísticos: %d\n", Pontosturísticos);
+    printf("Densidade Populacional: %d\n", densidade);
+    printf("PIB Per Capita: %d\n", pibpercapita);
+    printf("Super Poder: %d\n", superpoder);
+
+
     return 0;
 
 }
